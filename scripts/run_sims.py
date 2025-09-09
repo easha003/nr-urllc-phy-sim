@@ -6,8 +6,8 @@ from pathlib import Path
 import sys
 # add src/ to path for local execution
 sys.path.append(str(Path(__file__).resolve().parents[1] / "src"))
-from nr_urlcc.simulate import simulate_ofdm_awgn_ber
-from nr_urlcc.utils import ber_theory_mqam
+from nr_urllc.simulate import simulate_ofdm_awgn_ber
+from nr_urllc.utils import ber_theory_mqam
 
 ART = Path(__file__).resolve().parents[1] / "artifacts"
 ART.mkdir(parents=True, exist_ok=True)
