@@ -1,5 +1,22 @@
-.venv/
+# Python cache
 __pycache__/
 *.pyc
-artifacts/*
-!.gitkeep
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Local data
+artifacts/
+
+# IDE/editor settings
+.vscode/
+.idea/
